@@ -1,0 +1,100 @@
+/* styles.css */
+
+
+/* Apply styles to the container to control layout */
+.container {
+    max-width: 800px; /* Limit the maximum width of the content */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center;
+    
+    
+}
+
+.container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between; /* Spread items out along the main axis */
+}
+
+/* Style the header section */
+header {
+    text-align: center; /* Center align the content */
+}
+
+/* Style the logo image */
+header img {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Style the heading */
+header h1 {
+    margin-top: 10px; /* Add spacing between the image and heading */
+    color: rgb(144, 0, 255); /* Change the color of the heading */
+}
+
+/* Style the paragraphs in the section */
+section p {
+    margin-bottom: 20px; /* Add spacing between paragraphs */
+    color: aliceblue; /* Change the color of the paragraphs */
+    text-align: center; /* Center align the paragraphs */
+}
+.image-wrapper {
+    margin-bottom: 20px; /* Add spacing between images */
+}
+/* Style the images within the wrapper */
+.image-wrapper img {
+    display: block;
+    margin: 0 auto; /* Center align images horizontally */
+    max-width: 100%;
+    height: auto;
+}
+/* Style the paragraphs below the images */
+.image-wrapper p {
+    color: white;
+    text-align: center;
+    margin-top: 10px; /* Add spacing between image and text */
+}
+/* Style the images in the second container */
+.container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the paragraphs in the second container */
+.container2 p {
+    color: white;
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Add spacing below paragraphs */
+}
+/* Style the join now button */
+.button-container {
+    margin-top: 20px; /* Add margin to separate button from paragraphs */
+}
+
+.join-now-button {
+    /*display: inline-block; /* Make the button an inline-block element */
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #007bff; /* Set button background color */
+    color: yellow; /* Set button text color */
+    text-decoration: none; /* Remove default link underline */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius to button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.join-now-button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+}
+
+.parent-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
